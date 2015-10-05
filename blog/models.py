@@ -14,5 +14,6 @@ class Post(models.Model):
         self.save()
         
     def __str__(self):
-        return self.title
-              
+        return self.title 
+        
+# hier schreibe ich einen Kommentar rein, nur um den Git status zu überprüfen
